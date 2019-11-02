@@ -213,6 +213,10 @@ section {
 .full-banner:before {
     content: '';
     position: absolute;
-    border: 1px solid #ffffff 30px 30px 50px 50px;
+    border: 1px solid #ffffff;
+    top: 30px;
+    bottom: 30px; 
+    left: 50px; 
+    right:50px;
     z-index: 1;
 }
